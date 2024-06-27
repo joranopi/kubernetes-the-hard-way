@@ -61,6 +61,8 @@ The binaries that will be downloaded are listed in the `downloads.txt` file, whi
 cat downloads.txt
 ```
 
+**NOTE:** If you are using an amd64 machine instead, replace **arm/arm64** in downloads.txt to **amd64**. 
+
 Download the binaries listed in the `downloads.txt` file using the `wget` command:
 
 ```bash
