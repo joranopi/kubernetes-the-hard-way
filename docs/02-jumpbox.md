@@ -107,6 +107,16 @@ Use the `chmod` command to make the `kubectl` binary executable and move it to t
 }
 ```
 
+##### Bash Completion
+**1.** Install the following:
+```
+source /usr/share/bash-completion/bash_completion
+kubectl completion bash | sudo tee /etc/bash_completion.d/kubectl > /dev/null
+sudo chmod a+r /etc/bash_completion.d/kubectl
+```
+**2.** Log out and log back in.
+
+
 At this point `kubectl` is installed and can be verified by running the `kubectl` command:
 
 ```bash
